@@ -15,6 +15,8 @@ struct CuttingBoardApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: Recipe.self)
     }
 }
+
+// literally a baguette
