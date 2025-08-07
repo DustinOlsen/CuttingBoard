@@ -18,5 +18,3 @@ struct CuttingBoardApp: App {
         .modelContainer(for: Recipe.self)
     }
 }
-
-// literally a baguette

@@ -11,9 +11,9 @@ struct RecipeLibraryView: View {
     var body: some View {
         VStack {
             Spacer()
-            Text("One part lemon, one part Lenin")
+            Text("Ingredients")
             Spacer()
-            Button("HEEEEERES JASON") {
+            Button("Get Data") {
                 
             }
             Spacer()

@@ -151,7 +151,7 @@ struct NewRecipeView: View {
                         
                         Spacer()
                         
-                        Button("Finalize That Shit") {
+                        Button("Finalize!") {
                             saveRecipe()
                         }
                     }

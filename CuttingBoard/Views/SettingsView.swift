@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    var uselessPickerChoices = ["Useless One", "Useless Two", "Useless Three"]
+    var uselessPickerChoices = ["Placeholder One", "Placeholder Two", "Placeholder Three"]
     @State private var uselessSelection = "Useless One"
     
     @State private var uselessToggle = false
@@ -19,18 +19,18 @@ struct SettingsView: View {
         
         Form {
             
-            Section(header: Text("Uhhh")) {
+            Section(header: Text("Placeholder Header")) {
                 Toggle("Useless Toggle", isOn: $uselessToggle)
                 
             }
             
-            Section(header: Text("uhh....UHHHHHHH")) {
+            Section(header: Text("Placeholder Header #2")) {
                 
                 Toggle("Another Useless Toggle", isOn: $anotherUselessToggle)
                 
             }
             
-            Section(header: Text("I don't even know what this is for")) {
+            Section(header: Text("Placeholder Header #3")) {
                 
                 Picker("Categories", selection: $uselessSelection, content: {
                     
@@ -41,9 +41,9 @@ struct SettingsView: View {
                 })
             }
             
-            Section(header: Text("Some other thing here")) {
+            Section(header: Text("Placeholder Header #4")) {
                 
-                Text("Idk")
+                Text("Placeholder Text")
                 
             }
             
